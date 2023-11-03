@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fadde1;
+
+}
+
+.container {
+    max-width: 450px;
+   /* background: linear-gradient(to top left, #8d99ae, #5c9ead);*/
+   background:#add7f6 ;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+.title1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-block: 20px;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    box-shadow: 2px 2px 5px #0077b6;
+    width: 50%;
+
+
+}
+
+.btn:hover {
+    background-color: #0f5989;
+    transform: scale(1.1);
+}
+
+.icon {
+    font-size: 45px;
+    color: #fff;
+}
+
+h2 {
+    letter-spacing: 1.4px;
+}
+
+
+.input-value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+input {
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+    box-shadow: 2px 2px 5px #3498db;
+
+}
+
+.temp-icon {
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background: #183b56;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+
+}
